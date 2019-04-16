@@ -36,7 +36,6 @@ public class TxHandler {
         UTXO utxo;
         double sum_input_values = 0;
         double sum_output_values = 0;
-        boolean bool;//variable to track the conditions when running debug
         //(1) all outputs claimed by {@code tx} are in the current UTXO pool,
         for (int i=0; i < tx.numInputs(); i++){
             input = inputs.get(i);
