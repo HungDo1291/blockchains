@@ -24,6 +24,9 @@ public class TxHandler {
      *     values; and false otherwise.
      */
     public boolean isValidTx(Transaction tx) {
+        //since TXHandler can check many transactions independently. isValidTx will check each tx without altering TxHandler.utxoPool
+        //that is why for each tx check, we need to create a copy of TxHandler.utxoPool
+        UTXOPool temporary_utxoPool = new UTXOPool(utxoPool);
         ArrayList<Transaction.Input> inputs= tx.getInputs();
         ArrayList<Transaction.Output> outputs= tx.getOutputs();
 
@@ -31,25 +34,25 @@ public class TxHandler {
         Transaction.Output previous_output;
         Transaction.Output output;
         UTXO utxo;
-        int sum_input_values = 0;
-        int sum_output_values = 0;
+        double sum_input_values = 0;
+        double sum_output_values = 0;
         //(1) all outputs claimed by {@code tx} are in the current UTXO pool,
         for (int i=0; i < tx.numInputs(); i++){
             input = inputs.get(i);
             utxo = new UTXO(input.prevTxHash, input.outputIndex);
             //(1) all outputs claimed by {@code tx} are in the current UTXO pool,
-            if(utxoPool.contains(utxo) ){
-                previous_output = utxoPool.getTxOutput(utxo);
+            if(temporary_utxoPool.contains(utxo) ){
+                previous_output = temporary_utxoPool.getTxOutput(utxo);
 
                 //(2) the signatures on each input of {@code tx} are valid,
-                if (Crypto.verifySignature(previous_output.address, tx.getRawDataToSign(input.outputIndex), input.signature)){
+                if (Crypto.verifySignature(previous_output.address, tx.getRawDataToSign(i), input.signature)){
 
                 }else{
                     return false;
                 }
 
                 //(3) no UTXO is claimed multiple times by {@code tx},
-                utxoPool.removeUTXO(utxo);
+                temporary_utxoPool.removeUTXO(utxo);
 
                 sum_input_values += previous_output.value;
             }else{
@@ -67,10 +70,10 @@ public class TxHandler {
         }
         // (5) the sum of {@code tx}s input values is greater than or equal to the sum of its output
         // values; and false otherwise.
-        if (sum_input_values == sum_output_values){
-            return true;
-        }else{
+        if (sum_input_values < sum_output_values){
             return false;
+        }else{
+            return true;
         }
 
     }
