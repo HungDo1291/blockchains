@@ -79,21 +79,6 @@ public class TxHandlerTest {
         boolean bool = txHandler.isValidTx(tx2);
         System.out.println("txHandler.isValidTx(tx2) returns: " + bool);
         assertTrue(bool);
-
-
-        //update pool
-        UTXO utxo;
-        ArrayList<Transaction.Input> inputs = tx2.getInputs();
-        Transaction.Input input;
-        for (int i=0; i < tx2.numInputs() ; i++) {
-            input = inputs.get(i);
-            utxo = new UTXO(input.prevTxHash, input.outputIndex);
-            utxoPool.removeUTXO(utxo);
-        }
-        for (int i =0; i < tx2.numOutputs();i++) {
-            utxo = new UTXO(tx2.getHash(), i);
-            utxoPool.addUTXO(utxo, tx2.getOutput(i));
-        }
     }
 
     @org.junit.Test
