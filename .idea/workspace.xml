@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab007714-1bf3-4bf8-8d69-c335a85d260f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/TxHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/TxHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TxHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TxHandlerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,15 +13,21 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="981960416">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -34,12 +42,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1484" />
+          <entry key="java" value="1891" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1484" />
+          <entry key="JAVA" value="1891" />
         </counts>
       </usages-collector>
     </session>
@@ -67,8 +75,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/java/TxHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+            <state relative-caret-position="553">
+              <caret line="109" column="9" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,29 +87,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/Transaction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="86" column="44" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="44" />
+            <state relative-caret-position="20">
+              <caret line="46" column="23" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/IsValidTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2860">
-              <caret line="150" column="1" selection-start-line="150" selection-start-column="1" selection-end-line="153" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/UTXO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="97" selection-start-line="11" selection-start-column="97" selection-end-line="11" selection-end-column="97" />
             </state>
           </provider>
         </entry>
@@ -106,33 +99,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/TxHandlerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="373">
+              <caret line="92" column="29" lean-forward="true" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/UtxoTestSet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7300">
-              <caret line="471" column="23" lean-forward="true" selection-start-line="471" selection-start-column="23" selection-end-line="471" selection-end-column="23" />
-              <folding>
-                <element signature="e#1668#1669#0" expanded="true" />
-                <element signature="e#1729#1730#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/ValidationLists.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -150,6 +121,7 @@
     <findStrings>
       <find>utxo</find>
       <find>get</find>
+      <find>[]</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,17 +139,17 @@
         <option value="$PROJECT_DIR$/src/test/com/scrooge_coin/TxHandlerTest.java" />
         <option value="$PROJECT_DIR$/src/test/scrooge_coin/TxHandlerTest.java" />
         <option value="$PROJECT_DIR$/src/java/scrooge_coin/TxHandler.java" />
-        <option value="$PROJECT_DIR$/src/test/TxHandlerTest.java" />
         <option value="$PROJECT_DIR$/src/test/UtxoTestSet.java" />
         <option value="$PROJECT_DIR$/src/test/ValidationLists.java" />
         <option value="$PROJECT_DIR$/src/test/IsValidTest.java" />
+        <option value="$PROJECT_DIR$/src/test/TxHandlerTest.java" />
         <option value="$PROJECT_DIR$/src/java/TxHandler.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
-    <option name="width" value="3006" />
+    <option name="x" value="512" />
+    <option name="width" value="2486" />
     <option name="height" value="1932" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -187,6 +159,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,15 +189,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555421067736" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556114570335" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -253,7 +225,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IsValidTest">
+  <component name="RunManager" selected="JUnit.TxHandlerTest.handleTxs">
     <configuration name="IsValidTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="blockchains" />
       <option name="PACKAGE_NAME" value="" />
@@ -267,16 +239,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="IsValidTest" />
       <option name="METHOD_NAME" value="testIsValidTransactionsClaimingTheSameUTXOSeveralTimes" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IsValidTest.testIsValidTransactionsClamingOuputsNotInThePool" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="blockchains" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IsValidTest" />
-      <option name="METHOD_NAME" value="testIsValidTransactionsClamingOuputsNotInThePool" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -300,20 +262,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TxHandlerTest.handleTxs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="blockchains" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TxHandlerTest" />
+      <option name="METHOD_NAME" value="handleTxs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.IsValidTest.testIsValidTransactionsClamingOuputsNotInThePool" />
       <item itemvalue="JUnit.IsValidTest.testIsValidTransactionsClaimingTheSameUTXOSeveralTimes" />
       <item itemvalue="JUnit.IsValidTest.testIsValidTransactionsWithNegativeOutput" />
       <item itemvalue="JUnit.TxHandlerTest" />
       <item itemvalue="JUnit.IsValidTest" />
+      <item itemvalue="JUnit.TxHandlerTest.handleTxs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TxHandlerTest.handleTxs" />
         <item itemvalue="JUnit.IsValidTest" />
         <item itemvalue="JUnit.TxHandlerTest" />
         <item itemvalue="JUnit.IsValidTest.testIsValidTransactionsWithNegativeOutput" />
         <item itemvalue="JUnit.IsValidTest.testIsValidTransactionsClaimingTheSameUTXOSeveralTimes" />
-        <item itemvalue="JUnit.IsValidTest.testIsValidTransactionsClamingOuputsNotInThePool" />
       </list>
     </recent_temporary>
   </component>
@@ -331,42 +303,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IsValidTest_testIsValidWithValidTransactions - 2019.04.16 at 23h 17m 06s.xml">
-      <configuration name="IsValidTest.testIsValidWithValidTransactions" configurationId="JUnit" />
+    <history-entry file="TxHandlerTest_handleTxs - 2019.04.24 at 23h 51m 23s.xml">
+      <configuration name="TxHandlerTest.handleTxs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IsValidTest_testIsValidWithValidTransactions - 2019.04.16 at 23h 17m 29s.xml">
-      <configuration name="IsValidTest.testIsValidWithValidTransactions" configurationId="JUnit" />
+    <history-entry file="TxHandlerTest_handleTxs - 2019.04.24 at 23h 52m 24s.xml">
+      <configuration name="TxHandlerTest.handleTxs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IsValidTest_testIsValidWithInvalidSignatures - 2019.04.16 at 23h 17m 50s.xml">
-      <configuration name="IsValidTest.testIsValidWithInvalidSignatures" configurationId="JUnit" />
+    <history-entry file="TxHandlerTest_handleTxs - 2019.04.24 at 23h 52m 30s.xml">
+      <configuration name="TxHandlerTest.handleTxs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IsValidTest_testIsValidSignaturesWithInvalidPrivateKeys - 2019.04.16 at 23h 18m 09s.xml">
-      <configuration name="IsValidTest.testIsValidSignaturesWithInvalidPrivateKeys" configurationId="JUnit" />
+    <history-entry file="TxHandlerTest_handleTxs - 2019.04.24 at 23h 53m 17s.xml">
+      <configuration name="TxHandlerTest.handleTxs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IsValidTest_testIsValidTotalOutputExceedsTotalInput - 2019.04.16 at 23h 18m 21s.xml">
-      <configuration name="IsValidTest.testIsValidTotalOutputExceedsTotalInput" configurationId="JUnit" />
+    <history-entry file="TxHandlerTest_handleTxs - 2019.04.24 at 23h 53m 24s.xml">
+      <configuration name="TxHandlerTest.handleTxs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IsValidTest_testIsValidTransactionsClamingOuputsNotInThePool - 2019.04.16 at 23h 18m 38s.xml">
-      <configuration name="IsValidTest.testIsValidTransactionsClamingOuputsNotInThePool" configurationId="JUnit" />
+    <history-entry file="TxHandlerTest_handleTxs - 2019.04.24 at 23h 53m 36s.xml">
+      <configuration name="TxHandlerTest.handleTxs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IsValidTest_testIsValidTransactionsClaimingTheSameUTXOSeveralTimes - 2019.04.16 at 23h 18m 53s.xml">
-      <configuration name="IsValidTest.testIsValidTransactionsClaimingTheSameUTXOSeveralTimes" configurationId="JUnit" />
+    <history-entry file="TxHandlerTest_handleTxs - 2019.04.24 at 23h 54m 22s.xml">
+      <configuration name="TxHandlerTest.handleTxs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IsValidTest_testIsValidTransactionsWithNegativeOutput - 2019.04.16 at 23h 19m 06s.xml">
-      <configuration name="IsValidTest.testIsValidTransactionsWithNegativeOutput" configurationId="JUnit" />
+    <history-entry file="TxHandlerTest_handleTxs - 2019.04.24 at 23h 54m 40s.xml">
+      <configuration name="TxHandlerTest.handleTxs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TxHandlerTest - 2019.04.16 at 23h 20m 24s.xml">
-      <configuration name="TxHandlerTest" configurationId="JUnit" />
+    <history-entry file="TxHandlerTest_handleTxs - 2019.04.24 at 23h 55m 31s.xml">
+      <configuration name="TxHandlerTest.handleTxs" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IsValidTest - 2019.04.16 at 23h 21m 36s.xml">
-      <configuration name="IsValidTest" configurationId="JUnit" />
+    <history-entry file="TxHandlerTest_handleTxs - 2019.04.24 at 23h 56m 49s.xml">
+      <configuration name="TxHandlerTest.handleTxs" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="0" width="1503" height="966" extended-state="0" />
-    <editor active="true" />
+    <frame x="256" y="0" width="1243" height="966" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.183391" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25991562" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -375,12 +346,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32215568" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.16526946" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32215568" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35808384" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32934132" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32814372" />
@@ -425,6 +396,24 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java/TxHandler.java</url>
+          <line>109</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/java/TxHandler.java</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/java/StringCalculator.java" />
     <entry file="file://$PROJECT_DIR$/src/java/InputNormalizer.java" />
@@ -439,10 +428,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/UtxoTestSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8820">
+          <caret line="471" column="23" selection-start-line="471" selection-start-column="23" selection-end-line="471" selection-end-column="23" />
+          <folding>
+            <element signature="e#1668#1669#0" expanded="true" />
+            <element signature="e#1729#1730#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/ValidationLists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="60">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/IsValidTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="145" column="5" lean-forward="true" selection-start-line="145" selection-start-column="5" selection-end-line="145" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -453,16 +460,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="86" column="44" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/java/Crypto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -470,38 +467,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/UtxoTestSet.java">
+    <entry file="file://$PROJECT_DIR$/src/java/Transaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7300">
-          <caret line="471" column="23" lean-forward="true" selection-start-line="471" selection-start-column="23" selection-end-line="471" selection-end-column="23" />
-          <folding>
-            <element signature="e#1668#1669#0" expanded="true" />
-            <element signature="e#1729#1730#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/TxHandlerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="20">
+          <caret line="46" column="23" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/IsValidTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/TxHandlerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2860">
-          <caret line="150" column="1" selection-start-line="150" selection-start-column="1" selection-end-line="153" selection-end-column="14" />
+        <state relative-caret-position="373">
+          <caret line="92" column="29" lean-forward="true" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/TxHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+        <state relative-caret-position="553">
+          <caret line="109" column="9" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
