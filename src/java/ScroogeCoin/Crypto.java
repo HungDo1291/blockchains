@@ -1,3 +1,5 @@
+package ScroogeCoin;
+
 import java.security.*;
 
 public class Crypto {

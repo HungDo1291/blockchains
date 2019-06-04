@@ -1,4 +1,4 @@
-// Copyright (C) 2016-2017 Enrique Albertos
+package ScroogeCoin;// Copyright (C) 2016-2017 Enrique Albertos
 // Distributed under the GNU GPL v2 software license
 
 import java.security.InvalidKeyException;
@@ -19,15 +19,15 @@ import java.util.Set;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
- * UtxoTestSet represent a random created data test set for testing isValid and txHandler methods.
+ * ScroogeCoin.UtxoTestSet represent a random created data test set for testing isValid and txHandler methods.
  * Creates an UtxPool ans several transactions, valid, invalid or conflicted
  * Several flags force different types of transactions
  *
- * A UtxoTestSet can be
+ * A ScroogeCoin.UtxoTestSet can be
  * constructed wit by means of a builder:
  *
  * <pre>
- * UtxoTestSet.builder()
+ * ScroogeCoin.UtxoTestSet.builder()
  * 	.setPeopleSize(10)
  * 	.setUtxoTxNumber(10)
  * 	.setMaxUtxoTxOutput(10)
@@ -45,7 +45,7 @@ import java.util.concurrent.ThreadLocalRandom;
 public class UtxoTestSet {
 
     /**
-     * Factory method that constructs a new builder of UtxoTestSet
+     * Factory method that constructs a new builder of ScroogeCoin.UtxoTestSet
      * @return a new builder
      */
     public static UtxoTestSetBuilder builder(){
@@ -70,7 +70,7 @@ public class UtxoTestSet {
 
 
     /**
-     * Builder for UtxoTestSet
+     * Builder for ScroogeCoin.UtxoTestSet
      * @author ealbertos
      *
      */
@@ -102,7 +102,7 @@ public class UtxoTestSet {
 
         /**
          * Number of utxo in the pool to create for the set, the same number is created for the extraPool set
-         * Extra Pool set is used to create transactions tha use UTXO no in the actual pool
+         * Extra Pool set is used to create transactions tha use ScroogeCoin.UTXO no in the actual pool
          * @param utxoTxNumber number of utxo in the pool to create for the set
          * @return this builder
          */
@@ -215,7 +215,7 @@ public class UtxoTestSet {
         }
 
         /**
-         * Create transactions that claim the same UTXO multiple times
+         * Create transactions that claim the same ScroogeCoin.UTXO multiple times
          * @param value True force creation
          * @return  this builder
          */
@@ -400,7 +400,7 @@ public class UtxoTestSet {
             throws NoSuchAlgorithmException, InvalidKeyException, SignatureException {
         final ArrayList<UTXO> utxoList = getAllUTXO(utxoPool);
         final ArrayList<UTXO> utxoExtraList = getAllUTXO(utxoExtraPool);
-        //final UTXOPool utxoPool = new UTXOPool();
+        //final ScroogeCoin.UTXOPool utxoPool = new ScroogeCoin.UTXOPool();
         final Map<Integer, UTXO> utxoAtIndex = new HashMap<>();
         final Set<UTXO> utxosSeen = new HashSet<>();
         final Set<UTXO> utxosToRepeat = new HashSet<>();

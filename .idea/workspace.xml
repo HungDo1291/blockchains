@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab007714-1bf3-4bf8-8d69-c335a85d260f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/java/MalDoNothing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Simulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/TxHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/TxHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/TxHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/TxHandlerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/blockchains/META-INF/blockchains.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Crypto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ScroogeCoin/Crypto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ScroogeCoin/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/TxHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ScroogeCoin/TxHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/UTXO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ScroogeCoin/UTXO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/UTXOPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/ScroogeCoin/UTXOPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/IsValidTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ScroogeCoin/IsValidTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/TxHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ScroogeCoin/TxHandlerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/UtxoTestSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ScroogeCoin/UtxoTestSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ValidationLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ScroogeCoin/ValidationLists.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,64 +31,81 @@
     <session id="981960416">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="18" />
+          <entry key="java" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="18" />
+          <entry key="JAVA" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1891" />
+          <entry key="java" value="2452" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1891" />
+          <entry key="JAVA" value="2452" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="blockchains" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/UTXOPool.java">
+        <entry file="file://$PROJECT_DIR$/src/java/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="27" column="26" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/java/Crypto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="74" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="74" />
+            <state relative-caret-position="180">
+              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/java/TxHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/test/Simulation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="109" column="9" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
+            <state relative-caret-position="220">
+              <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#5389#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/CompliantNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#957#958#0" expanded="true" />
+                <element signature="e#997#998#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,23 +114,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/java/Transaction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="46" column="23" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="140">
+              <caret line="9" column="25" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/TxHandlerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/java/Candidate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="92" column="29" lean-forward="true" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -122,6 +143,7 @@
       <find>utxo</find>
       <find>get</find>
       <find>[]</find>
+      <find>Node</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,12 +166,17 @@
         <option value="$PROJECT_DIR$/src/test/IsValidTest.java" />
         <option value="$PROJECT_DIR$/src/test/TxHandlerTest.java" />
         <option value="$PROJECT_DIR$/src/java/TxHandler.java" />
+        <option value="$PROJECT_DIR$/src/java/ScroogeCoin/TxHandler.java" />
+        <option value="$PROJECT_DIR$/src/java/MalDoNothing.java" />
+        <option value="$PROJECT_DIR$/src/java/Simulation.java" />
+        <option value="$PROJECT_DIR$/src/java/CompliantNode.java" />
+        <option value="$PROJECT_DIR$/src/test/Simulation.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="512" />
-    <option name="width" value="2486" />
+    <option name="x" value="-2" />
+    <option name="width" value="3004" />
     <option name="height" value="1932" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -159,7 +186,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -189,24 +215,28 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556114570335" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559648328893" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ScroogeCoin" />
       <recent name="" />
       <recent name="scrooge_coin" />
       <recent name="com.scrooge_coin" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="scrooge_coin" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -225,29 +255,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TxHandlerTest.handleTxs">
-    <configuration name="IsValidTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Simulation">
+    <configuration name="Simulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Simulation" />
       <module name="blockchains" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IsValidTest" />
+      <option name="PROGRAM_PARAMETERS" value=".2 .30 .05 10" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsValidTest.testIsValidTransactionsClaimingTheSameUTXOSeveralTimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IsValidTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="blockchains" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IsValidTest" />
-      <option name="METHOD_NAME" value="testIsValidTransactionsClaimingTheSameUTXOSeveralTimes" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="ScroogeCoin" />
+      <option name="MAIN_CLASS_NAME" value="ScroogeCoin.IsValidTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="IsValidTest.testIsValidTransactionsWithNegativeOutput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="blockchains" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IsValidTest" />
+      <option name="PACKAGE_NAME" value="ScroogeCoin" />
+      <option name="MAIN_CLASS_NAME" value="ScroogeCoin.IsValidTest" />
       <option name="METHOD_NAME" value="testIsValidTransactionsWithNegativeOutput" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -256,16 +284,16 @@
     </configuration>
     <configuration name="TxHandlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="blockchains" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TxHandlerTest" />
+      <option name="PACKAGE_NAME" value="ScroogeCoin" />
+      <option name="MAIN_CLASS_NAME" value="ScroogeCoin.TxHandlerTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="TxHandlerTest.handleTxs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="blockchains" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TxHandlerTest" />
+      <option name="PACKAGE_NAME" value="ScroogeCoin" />
+      <option name="MAIN_CLASS_NAME" value="ScroogeCoin.TxHandlerTest" />
       <option name="METHOD_NAME" value="handleTxs" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -273,7 +301,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.IsValidTest.testIsValidTransactionsClaimingTheSameUTXOSeveralTimes" />
+      <item itemvalue="Application.Simulation" />
       <item itemvalue="JUnit.IsValidTest.testIsValidTransactionsWithNegativeOutput" />
       <item itemvalue="JUnit.TxHandlerTest" />
       <item itemvalue="JUnit.IsValidTest" />
@@ -281,11 +309,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TxHandlerTest.handleTxs" />
+        <item itemvalue="Application.Simulation" />
         <item itemvalue="JUnit.IsValidTest" />
         <item itemvalue="JUnit.TxHandlerTest" />
+        <item itemvalue="JUnit.TxHandlerTest.handleTxs" />
         <item itemvalue="JUnit.IsValidTest.testIsValidTransactionsWithNegativeOutput" />
-        <item itemvalue="JUnit.IsValidTest.testIsValidTransactionsClaimingTheSameUTXOSeveralTimes" />
       </list>
     </recent_temporary>
   </component>
@@ -303,12 +331,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TxHandlerTest_handleTxs - 2019.04.24 at 23h 51m 23s.xml">
-      <configuration name="TxHandlerTest.handleTxs" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TxHandlerTest_handleTxs - 2019.04.24 at 23h 52m 24s.xml">
-      <configuration name="TxHandlerTest.handleTxs" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TxHandlerTest_handleTxs - 2019.04.24 at 23h 52m 30s.xml">
       <configuration name="TxHandlerTest.handleTxs" configurationId="JUnit" />
     </history-entry>
@@ -333,20 +355,27 @@
     <history-entry file="TxHandlerTest_handleTxs - 2019.04.24 at 23h 56m 49s.xml">
       <configuration name="TxHandlerTest.handleTxs" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TxHandlerTest - 2019.04.25 at 19h 37m 41s.xml">
+      <configuration name="TxHandlerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IsValidTest - 2019.04.25 at 19h 40m 03s.xml">
+      <configuration name="IsValidTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="256" y="0" width="1243" height="966" extended-state="0" />
+    <frame x="-1" y="0" width="1502" height="966" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25991562" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15096954" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" weight="0.18975069" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32215568" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32934132" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37724552" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35808384" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -400,13 +429,13 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/java/TxHandler.java</url>
+          <url>file://$PROJECT_DIR$/src/java/ScroogeCoin/TxHandler.java</url>
           <line>109</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/java/TxHandler.java</url>
+          <url>file://$PROJECT_DIR$/src/java/ScroogeCoin/TxHandler.java</url>
           <line>111</line>
           <properties />
           <option name="timeStamp" value="9" />
@@ -421,77 +450,142 @@
     <entry file="file://$PROJECT_DIR$/src/java/InputValidator.java" />
     <entry file="file://$PROJECT_DIR$/src/java/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/test/StringCalculatorTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/java/UTXO.java">
+    <entry file="file://$PROJECT_DIR$/src/java/ScroogeCoin/UTXO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="11" column="97" selection-start-line="11" selection-start-column="97" selection-end-line="11" selection-end-column="97" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/UtxoTestSet.java">
+    <entry file="file://$PROJECT_DIR$/src/test/ScroogeCoin/UtxoTestSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8820">
           <caret line="471" column="23" selection-start-line="471" selection-start-column="23" selection-end-line="471" selection-end-column="23" />
-          <folding>
-            <element signature="e#1668#1669#0" expanded="true" />
-            <element signature="e#1729#1730#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/ValidationLists.java">
+    <entry file="file://$PROJECT_DIR$/src/test/ScroogeCoin/ValidationLists.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/IsValidTest.java">
+    <entry file="file://$PROJECT_DIR$/src/java/ScroogeCoin/UTXOPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="145" column="5" lean-forward="true" selection-start-line="145" selection-start-column="5" selection-end-line="145" selection-end-column="5" />
+        <state relative-caret-position="420">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/UTXOPool.java">
+    <entry file="file://$PROJECT_DIR$/src/java/ScroogeCoin/Crypto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="26" />
+        <state relative-caret-position="240">
+          <caret line="12" column="74" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/Crypto.java">
+    <entry file="file://$PROJECT_DIR$/src/java/ScroogeCoin/TxHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="74" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="74" />
+        <state relative-caret-position="1700">
+          <caret line="87" column="34" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ScroogeCoin/IsValidTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2780">
+          <caret line="145" column="5" selection-start-line="145" selection-start-column="5" selection-end-line="145" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/ScroogeCoin/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="48" column="23" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/ScroogeCoin/TxHandlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="98" column="29" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/MalDoNothing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/MaliciousNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/Candidate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/java/Transaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="46" column="23" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="23" />
+        <state relative-caret-position="140">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/CompliantNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/Simulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
+          <caret line="88" column="47" lean-forward="true" selection-start-line="88" selection-start-column="15" selection-end-line="88" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#5317#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/TxHandlerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/Simulation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="92" column="29" lean-forward="true" selection-start-line="92" selection-start-column="29" selection-end-line="92" selection-end-column="29" />
+        <state relative-caret-position="220">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/java/TxHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="109" column="9" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
-          <folding>
+            <element signature="e#0#5389#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>

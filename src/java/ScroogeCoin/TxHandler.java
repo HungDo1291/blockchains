@@ -1,10 +1,12 @@
+package ScroogeCoin;
+
 import java.util.ArrayList;
-import java.util.Arrays;
+
 public class TxHandler {
 
     /**
-     * Creates a public ledger whose current UTXOPool (collection of unspent transaction outputs) is
-     * {@code utxoPool}. This should make a copy of utxoPool by using the UTXOPool(UTXOPool uPool)
+     * Creates a public ledger whose current ScroogeCoin.UTXOPool (collection of unspent transaction outputs) is
+     * {@code utxoPool}. This should make a copy of utxoPool by using the ScroogeCoin.UTXOPool(ScroogeCoin.UTXOPool uPool)
      * constructor.
      */
 
@@ -16,16 +18,16 @@ public class TxHandler {
 
     /**
      * @return true if:
-     * (1) all outputs claimed by {@code tx} are in the current UTXO pool, 
+     * (1) all outputs claimed by {@code tx} are in the current ScroogeCoin.UTXO pool,
      * (2) the signatures on each input of {@code tx} are valid, 
-     * (3) no UTXO is claimed multiple times by {@code tx},
+     * (3) no ScroogeCoin.UTXO is claimed multiple times by {@code tx},
      * (4) all of {@code tx}s output values are non-negative, and
      * (5) the sum of {@code tx}s input values is greater than or equal to the sum of its output
      *     values; and false otherwise.
      */
     public boolean isValidTx(Transaction tx) {
-        //since TXHandler can check many transactions independently. isValidTx will check each tx without altering TxHandler.utxoPool
-        //that is why for each tx check, we need to create a copy of TxHandler.utxoPool
+        //since TXHandler can check many transactions independently. isValidTx will check each tx without altering ScroogeCoin.TxHandler.utxoPool
+        //that is why for each tx check, we need to create a copy of ScroogeCoin.TxHandler.utxoPool
         UTXOPool temporary_utxoPool = new UTXOPool(utxoPool);
         ArrayList<Transaction.Input> inputs= tx.getInputs();
         ArrayList<Transaction.Output> outputs= tx.getOutputs();
@@ -36,11 +38,11 @@ public class TxHandler {
         UTXO utxo;
         double sum_input_values = 0;
         double sum_output_values = 0;
-        //(1) all outputs claimed by {@code tx} are in the current UTXO pool,
+        //(1) all outputs claimed by {@code tx} are in the current ScroogeCoin.UTXO pool,
         for (int i=0; i < tx.numInputs(); i++){
             input = inputs.get(i);
             utxo = new UTXO(input.prevTxHash, input.outputIndex);
-            //(1) all outputs claimed by {@code tx} are in the current UTXO pool,
+            //(1) all outputs claimed by {@code tx} are in the current ScroogeCoin.UTXO pool,
             if(temporary_utxoPool.contains(utxo) ){
                 previous_output = temporary_utxoPool.getTxOutput(utxo);
 
@@ -51,7 +53,7 @@ public class TxHandler {
                     return false;
                 }
 
-                //(3) no UTXO is claimed multiple times by {@code tx},
+                //(3) no ScroogeCoin.UTXO is claimed multiple times by {@code tx},
                 temporary_utxoPool.removeUTXO(utxo);
 
                 sum_input_values += previous_output.value;
@@ -81,7 +83,7 @@ public class TxHandler {
     /**
      * Handles each epoch by receiving an unordered array of proposed transactions, checking each
      * transaction for correctness, returning a mutually valid array of accepted transactions, and
-     * updating the current UTXO pool as appropriate.
+     * updating the current ScroogeCoin.UTXO pool as appropriate.
      */
     public Transaction[] handleTxs(Transaction[] possibleTxs) {
         ArrayList<Transaction> validTxsList = new ArrayList<>();

@@ -1,6 +1,12 @@
+package ScroogeCoin;
+
+import ScroogeCoin.Transaction;
+import ScroogeCoin.TxHandler;
+import ScroogeCoin.UTXO;
+import ScroogeCoin.UTXOPool;
+
 import java.math.BigInteger;
 import java.security.*;
-import java.util.ArrayList;
 
 import static org.junit.Assert.assertTrue;
 
@@ -22,7 +28,7 @@ public class TxHandlerTest {
         //
         // Generating a root transaction tx out of thin air, so that Scrooge owns a coin of value 10
         // By thin air I mean that this tx will not be validated, I just need it to get
-        // a proper Transaction.Output which I then can put in the UTXOPool, which will be passed
+        // a proper ScroogeCoin.Transaction.Output which I then can put in the ScroogeCoin.UTXOPool, which will be passed
         // to the TXHandler.
         //
         tx = new Tx();
@@ -35,7 +41,7 @@ public class TxHandlerTest {
         tx.signTx(pk_scrooge.getPrivate(), 0);
 
         //
-        // Set up the UTXOPool
+        // Set up the ScroogeCoin.UTXOPool
         //
         // The transaction output of the root transaction is the initial unspent output.
 
@@ -43,11 +49,11 @@ public class TxHandlerTest {
         utxoPool.addUTXO(utxo, tx.getOutput(0));
 
         //
-        // Set up a test Transaction
+        // Set up a test ScroogeCoin.Transaction
         //
         tx2 = new Tx();
 
-        // the Transaction.Output of tx at position 0 has a value of 10
+        // the ScroogeCoin.Transaction.Output of tx at position 0 has a value of 10
         tx2.addInput(tx.getHash(), 0);
 
         // I split the coin of value 10 into 3 coins and send all of them for simplicity to
@@ -59,14 +65,14 @@ public class TxHandlerTest {
         // Doubles exhibit floating-point rounding errors. This type should be for example BigInteger
         // and denote the smallest coin fractions (Satoshi in Bitcoin).
 
-        // There is only one (at position 0) Transaction.Input in tx2
+        // There is only one (at position 0) ScroogeCoin.Transaction.Input in tx2
         // and it contains the coin from Scrooge, therefore I have to sign with the private key from Scrooge
         tx2.signTx(pk_scrooge.getPrivate(), 0);
 
         /*
          * Start the test
          */
-        // Remember that the utxoPool contains a single unspent Transaction.Output which is
+        // Remember that the utxoPool contains a single unspent ScroogeCoin.Transaction.Output which is
         // the coin from Scrooge.
         txHandler = new TxHandler(utxoPool);
 
@@ -83,7 +89,7 @@ public class TxHandlerTest {
 
     @org.junit.Test
     public void handleTxs() {
-        System.out.println("txHandler.handleTxs(new Transaction[]{tx2}) returns: " +
+        System.out.println("txHandler.handleTxs(new ScroogeCoin.Transaction[]{tx2}) returns: " +
                 txHandler.handleTxs(new Transaction[]{tx2}).length + " transaction(s)");
     }
     public static class Tx extends Transaction {
